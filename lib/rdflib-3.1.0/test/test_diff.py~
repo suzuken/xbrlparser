@@ -1,0 +1,10 @@
+import unittest
+import rdflib
+from rdflib.compare import graph_diff
+
+class TestDiff(unittest.TestCase):
+
+    def testA(self): 
+        g=rdflib.Graph()
+        g.add( (rdflib.URIRef("urn:a"), rdflib.URIRef("urn:p"), rdflib.Literal(u"\xc3\xb6") ) ) 
+        diff=

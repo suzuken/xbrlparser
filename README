@@ -1,1 +1,8 @@
 simple xbrl parser
+
+*Library
+
+using rdflib
+
+rdflib - A Python library for working with RDF, a simple yet powerful language for representing information. - Google Project Hosting
+http://code.google.com/p/rdflib/
