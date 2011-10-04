@@ -1,6 +1,7 @@
 #!/usr/bin/env python
+#-*- coding: utf-8 -*-
 
-from parser import xbrl
+from xbrl import Xbrl
 from nose.tools import *
 
 class TestXbrl():
@@ -8,9 +9,3 @@ class TestXbrl():
         five = Xbrl(5)
         five.times(2)
         eq_(10, five.amount)
-
-    def testParse():
-        f = open('input/*')
-        data = f.read()
-        f.close()
-        print type(data)
