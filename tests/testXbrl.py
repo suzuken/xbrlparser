@@ -1,16 +1,17 @@
 #!/usr/bin/env python
+#-*- coding: utf-8 -*-
 
-from parser import xbrl
-from nose.tools import *
+import unittest
+import os.path
 
-class TestXbrl():
+from parser.xbrl import XBRL
+# from nose.tools import *
+
+class XbrlTestCase(unittest.TestCase):
     def testMultiplication(self):
         five = Xbrl(5)
         five.times(2)
         eq_(10, five.amount)
 
-    def testParse():
-        f = open('input/*')
-        data = f.read()
-        f.close()
-        print type(data)
+if __name__ == "__main__":
+    unittest.main()
