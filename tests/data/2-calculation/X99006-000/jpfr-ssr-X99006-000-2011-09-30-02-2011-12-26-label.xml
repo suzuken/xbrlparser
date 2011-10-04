@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="jpfr-ssr-X99006-000-2011-09-30-02-2011-12-26.xsd#jpfr-ssr-X99006-000_ReserveForA" xlink:label="ReserveForA" xlink:title="ReserveForA"/>
+    <link:label xlink:type="resource" xlink:label="label_ReserveForA" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_ReserveForA" xml:lang="ja" id="label_ReserveForA">A引当金</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ReserveForA" xlink:to="label_ReserveForA" xlink:title="label: ReserveForA to label_ReserveForA"/>
+    <link:label xlink:type="resource" xlink:label="label_ReserveForA_2" xlink:role="http://www.xbrl.org/2003/role/verboseLabel" xlink:title="label_ReserveForA" xml:lang="ja" id="label_ReserveForA_2">A引当金</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ReserveForA" xlink:to="label_ReserveForA_2" xlink:title="label: ReserveForA to label_ReserveForA"/>
+    <link:label xlink:type="resource" xlink:label="label_ReserveForA_3" xlink:role="http://www.xbrl.org/2003/role/documentation" xlink:title="label_ReserveForA" xml:lang="ja" id="label_ReserveForA_3">A引当金</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ReserveForA" xlink:to="label_ReserveForA_3" xlink:title="label: ReserveForA to label_ReserveForA"/>
+  </link:labelLink>
+</link:linkbase>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="http://info.edinet-fsa.go.jp/jp/fr/gaap/role/NonConsolidatedInterimBalanceSheets" xlink:type="simple" xlink:href="http://info.edinet-fsa.go.jp/jp/fr/gaap/o/rt/2011-03-14/jpfr-rt-2011-03-14.xsd#RoleNonConsolidatedInterimBalanceSheets"/>
+  <link:roleRef roleURI="http://info.edinet-fsa.go.jp/jp/fr/gaap/role/ConsolidatedInterimBalanceSheets" xlink:type="simple" xlink:href="http://info.edinet-fsa.go.jp/jp/fr/gaap/o/rt/2011-03-14/jpfr-rt-2011-03-14.xsd#RoleConsolidatedInterimBalanceSheets"/>
+  <link:calculationLink xlink:type="extended" xlink:role="http://info.edinet-fsa.go.jp/jp/fr/gaap/role/NonConsolidatedInterimBalanceSheets">
+    <link:loc xlink:type="locator" xlink:href="http://info.edinet-fsa.go.jp/jp/fr/gaap/t/cte/2011-03-14/jpfr-t-cte-2011-03-14.xsd#jpfr-t-cte_Liabilities" xlink:label="Liabilities" xlink:title="Liabilities"/>
+    <link:loc xlink:type="locator" xlink:href="jpfr-q2r-X99003-000-2011-09-30-01-2011-11-26.xsd#jpfr-q2r-X99003-000_ReserveForA" xlink:label="ReserveForA" xlink:title="ReserveForA"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="Liabilities" xlink:to="ReserveForA" xlink:title="calculation: Liabilities to ReserveForA" use="optional" priority="0" order="24.0" weight="1.0"/>
+  </link:calculationLink>
+  <link:calculationLink xlink:type="extended" xlink:role="http://info.edinet-fsa.go.jp/jp/fr/gaap/role/ConsolidatedInterimBalanceSheets">
+    <link:loc xlink:type="locator" xlink:href="http://info.edinet-fsa.go.jp/jp/fr/gaap/t/cte/2011-03-14/jpfr-t-cte-2011-03-14.xsd#jpfr-t-cte_Liabilities" xlink:label="Liabilities" xlink:title="Liabilities"/>
+    <link:loc xlink:type="locator" xlink:href="http://info.edinet-fsa.go.jp/jp/fr/gaap/t/cte/2011-03-14/jpfr-t-cte-2011-03-14.xsd#jpfr-t-cte_ProvisionForPointCardCertificatesCL" xlink:label="ReserveForPointCardCertificatesCL" xlink:title="ReserveForPointCardCertificatesCL"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="Liabilities" xlink:to="ReserveForPointCardCertificatesCL" xlink:title="calculation: Liabilities to ReserveForPointCardCertificatesCL" use="optional" order="23.0" weight="1.0"/>
+  </link:calculationLink>
+</link:linkbase>

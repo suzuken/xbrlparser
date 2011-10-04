@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+  <link:roleRef roleURI="http://info.edinet-fsa.go.jp/jp/fr/gaap/role/NonConsolidatedBalanceSheets" xlink:type="simple" xlink:href="http://info.edinet-fsa.go.jp/jp/fr/gaap/o/rt/2011-03-14/jpfr-rt-2011-03-14.xsd#RoleNonConsolidatedBalanceSheets"/>
+  <link:presentationLink xlink:type="extended" xlink:role="http://info.edinet-fsa.go.jp/jp/fr/gaap/role/NonConsolidatedBalanceSheets">
+    <link:loc xlink:type="locator" xlink:href="http://info.edinet-fsa.go.jp/jp/fr/gaap/t/cte/2011-03-14/jpfr-t-cte-2011-03-14.xsd#jpfr-t-cte_CurrentLiabilitiesAbstract" xlink:label="CurrentLiabilitiesAbstract" xlink:title="CurrentLiabilitiesAbstract"/>
+    <link:loc xlink:type="locator" xlink:href="jpfr-asr-X99005-000-2011-03-31-01-2011-06-27.xsd#jpfr-asr-X99005-000_ReserveForA" xlink:label="ReserveForA" xlink:title="ReserveForA"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="CurrentLiabilitiesAbstract" xlink:to="ReserveForA" xlink:title="presentation: CurrentLiabilitiesAbstract to ReserveForA" order="19.5"/>
+    <link:loc xlink:type="locator" xlink:href="http://info.edinet-fsa.go.jp/jp/fr/gaap/t/cte/2011-03-14/jpfr-t-cte-2011-03-14.xsd#jpfr-t-cte_ProvisionForPointCardCertificatesCL" xlink:label="ReserveForPointCardCertificatesCL" xlink:title="ReserveForPointCardCertificatesCL"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="CurrentLiabilitiesAbstract" xlink:to="ReserveForPointCardCertificatesCL" xlink:title="presentation: CurrentLiabilitiesAbstract to ReserveForPointCardCertificatesCL" order="19.75"/>
+  </link:presentationLink>
+</link:linkbase>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="jpfr-q1r-X99002-000-2011-06-30-01-2011-08-08.xsd#jpfr-q1r-X99002-000_ReserveForA" xlink:label="ReserveForA" xlink:title="ReserveForA"/>
+    <link:label xlink:type="resource" xlink:label="label_ReserveForA" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_ReserveForA" xml:lang="en" id="label_ReserveForA">Reserve for A</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ReserveForA" xlink:to="label_ReserveForA" xlink:title="label: ReserveForA to label_ReserveForA"/>
+    <link:loc xlink:type="locator" xlink:href="jpfr-q1r-X99002-000-2011-06-30-01-2011-08-08.xsd#jpfr-q1r-X99002-000_ReserveForA" xlink:label="ReserveForA_2" xlink:title="ReserveForA"/>
+    <link:label xlink:type="resource" xlink:label="label_ReserveForA_2" xlink:role="http://www.xbrl.org/2003/role/verboseLabel" xlink:title="label_ReserveForA" xml:lang="en" id="label_ReserveForA_2">Reserve for A</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ReserveForA_2" xlink:to="label_ReserveForA_2" xlink:title="label: ReserveForA to label_ReserveForA"/>
+    <link:loc xlink:type="locator" xlink:href="jpfr-q1r-X99002-000-2011-06-30-01-2011-08-08.xsd#jpfr-q1r-X99002-000_ReserveForA" xlink:label="ReserveForA_3" xlink:title="ReserveForA"/>
+    <link:label xlink:type="resource" xlink:label="label_ReserveForA_3" xlink:role="http://www.xbrl.org/2003/role/documentation" xlink:title="label_ReserveForA" xml:lang="en" id="label_ReserveForA_3">Reserve for A</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ReserveForA_3" xlink:to="label_ReserveForA_3" xlink:title="label: ReserveForA to label_ReserveForA"/>
+  </link:labelLink>
+</link:linkbase>

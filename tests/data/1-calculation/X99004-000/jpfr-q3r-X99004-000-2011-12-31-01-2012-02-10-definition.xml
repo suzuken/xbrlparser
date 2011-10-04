@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="http://info.edinet-fsa.go.jp/jp/fr/gaap/role/BalanceSheets" xlink:type="simple" xlink:href="http://info.edinet-fsa.go.jp/jp/fr/gaap/o/rt/2011-03-14/jpfr-rt-2011-03-14.xsd#RoleBalanceSheets"/>
+  <link:definitionLink xlink:type="extended" xlink:role="http://info.edinet-fsa.go.jp/jp/fr/gaap/role/BalanceSheets">
+    <link:loc xlink:type="locator" xlink:href="http://info.edinet-fsa.go.jp/jp/fr/gaap/t/cte/2011-03-14/jpfr-t-cte-2011-03-14.xsd#jpfr-t-cte_CurrentLiabilitiesAbstract" xlink:label="CurrentLiabilitiesAbstract" xlink:title="CurrentLiabilitiesAbstract"/>
+    <link:loc xlink:type="locator" xlink:href="jpfr-q3r-X99004-000-2011-12-31-01-2012-02-10.xsd#jpfr-q3r-X99004-000_ReserveForA" xlink:label="ReserveForA" xlink:title="ReserveForA"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special" xlink:from="CurrentLiabilitiesAbstract" xlink:to="ReserveForA" xlink:title="definition: CurrentLiabilitiesAbstract to ReserveForA" order="0.5"/>
+  </link:definitionLink>
+</link:linkbase>
